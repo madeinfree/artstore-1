@@ -35,9 +35,13 @@ gem "simple_form", "3.1.0rc1"
 gem 'carrierwave'
 gem "mini_magick"
 
+gem "aasm"
+
 
 group :development do 
   gem "annotate"
+  gem "letter_opener"
+  gem 'roadie'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -1,12 +1,14 @@
 # == Schema Information
 #
-# Table name: photos
+# Table name: order_items
 #
-#  id         :integer          not null, primary key
-#  product_id :integer
-#  image      :string(255)
-#  created_at :datetime
-#  updated_at :datetime
+#  id           :integer          not null, primary key
+#  product_name :string(255)
+#  price        :float
+#  quantity     :integer
+#  order_id     :integer
+#  created_at   :datetime
+#  updated_at   :datetime
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
